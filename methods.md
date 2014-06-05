@@ -15,9 +15,11 @@
 实例方法是某个特定类、结构体或者枚举类型的实例的方法。实例方法支撑实例的功能: 或者提供方法,以访问和修改实例属性;或者提供与实例的目的相关的功能。实例方法的语法与函数完全一致，参考函数说明(a link should be here)。
 
 >> You write an instance method within the opening and closing braces of the type it belongs to. An instance method has implicit access to all other instance methods and properties of that type. An instance method can be called only on a specific instance of the type it belongs to. It cannot be called in isolation without an existing instance.
+
 实例方法要写在它所属的类型的前后括号之间。实例方法能够访问他所属类型的所有的其他实例方法和属性。实例方法只能被它所属的类的特定实例调用。实例方法不能被孤立于现存的实例而被调用。
 
-Here’s an example that defines a simple Counter class, which can be used to count the number of times an action occurs:
+>> Here’s an example that defines a simple Counter class, which can be used to count the number of times an action occurs:
+
 下面是定义一个很简单的类Counter的例子(Counter能被用来对一个动作发生的次数进行计数):
 
 ```
